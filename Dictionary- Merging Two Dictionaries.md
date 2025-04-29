@@ -22,7 +22,8 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 
 ## Output
-![image](https://github.com/user-attachments/assets/ca1e66e9-478d-4a68-bcb2-aaf281fd3030)
+![image](https://github.com/user-attachments/assets/8dbd4d45-e419-4d21-877c-95e7bd8c0e20)
+
 
 
 ## Result
