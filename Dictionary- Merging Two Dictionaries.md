@@ -10,20 +10,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
-      def dictionairy():
-            key_value ={}
-      
-      key_value[2] = 56
-      key_value[1] = 2
-      key_value[5] = 12
-      key_value[4] = 24
-      key_value[6] = 18
-      key_value[3] = 323
-      
-      print ("Keys and Values sorted in alphabetical order by the value")
+    dict1 = {'a': 1, 'b': 2, 'c': 3}
+    dict2 = {'b': 4, 'd': 5}
+   
+    def merge(d1, d2):
+        return {**d1, **d2}  
 
 
-      print(sorted(key_value.items(), key = lambda kv:(kv[1], kv[0])))
+      merged_dict = merge(dict1, dict2)
+      print("Merged Dictionary:", merged_dict)
 
 
 ## Output
